@@ -10,7 +10,7 @@ cargo-fuzz = true
 [dependencies]
 libfuzzer-sys = "0.4"
 
-[dependencies.json_nom]
+[dependencies.pineapple_json]
 path = ".."
 
 # Prevent this from interfering with workspaces
